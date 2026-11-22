@@ -193,3 +193,106 @@ export function IconWarning(p: IconProps) {
     </Svg>
   );
 }
+
+export function IconSearch(p: IconProps) {
+  const s = p.size ?? 20;
+  const t = useTint(p);
+  return (
+    <Svg width={s} height={s} viewBox="0 0 24 24" fill="none">
+      <Circle cx="11" cy="11" r="7" stroke={t} {...stroke} />
+      <Path d="M20 20l-4-4" stroke={t} {...stroke} />
+    </Svg>
+  );
+}
+
+export function IconMapPin(p: IconProps) {
+  const s = p.size ?? 22;
+  const t = useTint(p);
+  return (
+    <Svg width={s} height={s} viewBox="0 0 24 24" fill="none">
+      <Path
+        d="M12 21.5s-7-5.5-7-11.5a7 7 0 0114 0c0 6-7 11.5-7 11.5z"
+        stroke={t}
+        fill={t}
+        fillOpacity={0.15}
+        {...stroke}
+      />
+      <Circle cx="12" cy="10" r="2.8" stroke={t} fill={t} {...stroke} />
+    </Svg>
+  );
+}
+
+export function IconSwap(p: IconProps) {
+  const s = p.size ?? 20;
+  const t = useTint(p);
+  return (
+    <Svg width={s} height={s} viewBox="0 0 24 24" fill="none">
+      <Path d="M8 4v13M5 7l3-3 3 3" stroke={t} {...stroke} />
+      <Path d="M16 20V7M13 17l3 3 3-3" stroke={t} {...stroke} />
+    </Svg>
+  );
+}
+
+export function IconCar(p: IconProps) {
+  const s = p.size ?? 20;
+  const t = useTint(p);
+  return (
+    <Svg width={s} height={s} viewBox="0 0 24 24" fill="none">
+      <Path d="M5 11l1.5-4.5A2 2 0 018.4 5h7.2a2 2 0 011.9 1.5L19 11v6a1 1 0 01-1 1h-1a1 1 0 01-1-1v-1H7v1a1 1 0 01-1 1H5a1 1 0 01-1-1v-6z" stroke={t} {...stroke} />
+      <Circle cx="7.5" cy="12.5" r="1.5" fill={t} />
+      <Circle cx="16.5" cy="12.5" r="1.5" fill={t} />
+    </Svg>
+  );
+}
+
+export function IconWalk(p: IconProps) {
+  const s = p.size ?? 20;
+  const t = useTint(p);
+  return (
+    <Svg width={s} height={s} viewBox="0 0 24 24" fill="none">
+      <Circle cx="13" cy="4" r="2" stroke={t} {...stroke} />
+      <Path d="M7 21l3-7 2 2v6M17 21l-2.5-6-2.5-3 2-3 4 3" stroke={t} {...stroke} />
+    </Svg>
+  );
+}
+
+export function IconClose(p: IconProps) {
+  const s = p.size ?? 18;
+  const t = useTint(p);
+  return (
+    <Svg width={s} height={s} viewBox="0 0 24 24" fill="none">
+      <Path d="M18 6L6 18M6 6l12 12" stroke={t} {...stroke} />
+    </Svg>
+  );
+}
+
+export function IconDirections(p: IconProps) {
+  const s = p.size ?? 22;
+  const t = useTint(p);
+  return (
+    <Svg width={s} height={s} viewBox="0 0 24 24" fill="none">
+      <Rect x="2.5" y="2.5" width="19" height="19" rx="3" transform="rotate(45 12 12)" stroke={t} {...stroke} />
+      <Path d="M9 13.5h5a1.5 1.5 0 001.5-1.5V9.5M13 7.5l2.5 2 2.5-2" stroke={t} {...stroke} />
+    </Svg>
+  );
+}
+
+export function IconChevronUp(p: IconProps) {
+  const s = p.size ?? 20;
+  const t = useTint(p);
+  return (
+    <Svg width={s} height={s} viewBox="0 0 24 24" fill="none">
+      <Path d="M18 15l-6-6-6 6" stroke={t} {...stroke} />
+    </Svg>
+  );
+}
+
+export function IconChevronDown(p: IconProps) {
+  const s = p.size ?? 20;
+  const t = useTint(p);
+  return (
+    <Svg width={s} height={s} viewBox="0 0 24 24" fill="none">
+      <Path d="M6 9l6 6 6-6" stroke={t} {...stroke} />
+    </Svg>
+  );
+}

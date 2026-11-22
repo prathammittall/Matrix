@@ -29,9 +29,9 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconHome size={22} tint={String(color)} />,
-          tabBarAccessibilityLabel: 'Home dashboard',
+          title: 'Maps',
+          tabBarIcon: ({ color }) => <IconNavigate size={22} tint={String(color)} />,
+          tabBarAccessibilityLabel: 'Google Maps navigation and location selection',
         }}
       />
       <Tabs.Screen
